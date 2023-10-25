@@ -1,20 +1,20 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import {
   Container,
   Wrapper,
   Title,
   Desc,
   CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
+  // ToggleButtonGroup,
+  // ToggleButton,
+  // Divider,
 } from "./ProjectStyle";
 import ProjectCard from "./cards/ProjectCard";
 import { projects } from "../data/constants";
 
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("all");
+  const toggle = "all";
   return (
     <Container id="projects">
       <Wrapper>
@@ -23,7 +23,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           I have worked on a wide range of projects. From web apps to android
           apps. Here are some of my projects.
         </Desc>
-        
+
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
