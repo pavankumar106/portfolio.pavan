@@ -139,7 +139,16 @@ const ProjectCards = ({ project, setOpenModal }) => {
           <Avatar src={member.img} />
         ))}
       </Members> */}
-      {/* <Button>View Project</Button> */}
+      <Button>
+        <a href={project.webapp} style={{ textDecoration: "none" }}>
+          View Project
+        </a>{" "}
+      </Button>
+      <Button>
+        <a href={project.github} style={{ textDecoration: "none" }}>
+          View Source Code
+        </a>{" "}
+      </Button>
     </Card>
   );
 };
