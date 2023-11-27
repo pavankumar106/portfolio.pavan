@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
-import Contact from "./components/Contact.jsx";
+// import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ProjectDetails from "./components/ProjectDetails.jsx";
 import "./App.css";
@@ -53,7 +53,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Contact />
+            {/* <Contact /> */}
           </Wrapper>
           <Footer />
           {openModal.state && (

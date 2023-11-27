@@ -210,17 +210,33 @@ export const projects = [
     description: "Typical cart implementation using react and redux-toolkit ",
     image:
       "https://raw.githubusercontent.com/pavankumar106/notes/main/nov-26-FE/projects-data/1.webtube/Screenshot%20(17).png",
-    tags: ["React Js", "Typescrupt", "Redux", "Tailwind css"],
+    tags: ["React Js", "Typescript", "Redux", "Tailwind css"],
     category: "web app",
-    github:
-      "https://raw.githubusercontent.com/pavankumar106/notes/main/nov-26-FE/projects-data/1.webtube/Screenshot%20(17).png",
+    github: "https://github.com/pavankumar106/product-catalog",
     webapp: "https://product-catalog-redux.netlify.app/",
   },
-  
-  
-
- 
-  
+  {
+    id: 2,
+    title: "Nike store",
+    description: "Nike store application",
+    image:
+      "https://raw.githubusercontent.com/pavankumar106/notes/main/nov-26-FE/projects-data/1.webtube/nike.png",
+    tags: ["React Js", "Tailwind css"],
+    category: "web app",
+    github: "https://github.com/pavankumar106/tailwind-project",
+    webapp: "https://nike-shoppyfy.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Movix",
+    description: "Movie/series streaming platform",
+    image:
+      "https://raw.githubusercontent.com/pavankumar106/notes/main/nov-26-FE/projects-data/1.webtube/movix.png",
+    tags: ["React Js", "Redux", "sass"],
+    category: "web app",
+    github: "https://github.com/pavankumar106/movix",
+    webapp: "https://movix-two-mu.vercel.app/",
+  },
 ];
 
 export const TimeLineData = [
