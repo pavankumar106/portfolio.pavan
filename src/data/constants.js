@@ -70,11 +70,11 @@ export const skills = [
       //   name: "Postgresql",
       //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       // },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
+      // {
+      //   name: "MongoDB",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      // },
     ],
   },
   {
